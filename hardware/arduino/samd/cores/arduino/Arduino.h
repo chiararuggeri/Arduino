@@ -85,4 +85,13 @@ void loop( void ) ;
 #include "USB/USBCore.h"
 #include "USB/USBAPI.h"
 
+
+#ifndef min
+#define min(a,b) ((a)<(b)?(a):(b))
+#endif // min
+
+#ifndef max
+#define max(a,b) ((a)>(b)?(a):(b))
+#endif // max
+
 #endif // Arduino_h
